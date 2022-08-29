@@ -1,0 +1,333 @@
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: Calibri;
+    padding-bottom:0%
+}
+
+.logo{
+    position: relative; 
+    top: 50px;    
+
+}
+
+nav {
+  background-color: #1092cf; 
+  color: white;
+  padding: 13px;
+  width: 90%;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 16px;
+  position: fixed;
+  top: 0px; 
+  margin: 0px 40px 10px 40px; 
+  height: 26px;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 20px -8px 48px black; 
+}
+
+span{
+    padding: 4%;
+    text-align: center;
+     
+    
+    
+}
+
+span a:hover{
+    color: black;
+}
+
+span a{
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+}
+
+/* Finaliza configurações da Header */
+
+
+body{
+  background-color: white;
+  text-align: left;
+}
+
+
+.mission{
+    margin: 4%;
+    padding-left: 1%;
+    text-align: left;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgb(196, 240, 236);
+    border: 4px outset rgb(103, 142, 194);
+}
+
+/* Finaliza Missão e inicia Equipe */
+
+aside img{
+    width: 275px; 
+    height: auto;
+    border-radius: 150px;
+    box-shadow: 20px -8px 48px black;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+
+.equipe{
+    border-radius: 10px;
+}
+
+
+
+figcaption{
+    background-color: #7fc8b1;
+    border: 5px inset #74befe;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;    
+}
+
+
+
+aside{
+    text-align: center;
+    font-family: calibri;
+    font-size: large;
+    background-color: rgb(77, 168, 163);
+    height: 466px;
+    border-radius: 30px;
+}
+
+
+ /* Início da história */
+
+p {
+    text-align: center;
+    padding: 4%;
+    margin: 4%;
+    line-height: 1.6;
+    background-color: #7fb6a5;
+    box-shadow: 24px 5px 40px black;
+}
+
+
+.história{
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(159, 196, 184, 1), rgba(77, 168, 163, 1));
+    margin-top: 5%;
+    padding-bottom: 3%;
+    
+}
+
+
+/* Inicio dos serviços prestados  */
+
+table, td, th{
+    border: 3px solid cornflowerblue;
+    padding: 10px;
+
+}
+
+table{
+    border-collapse: collapse;
+    background-color: rgb(138, 190, 236);
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    box-shadow: 25px 25px 25px rgb(0, 0, 0);
+    
+    /* centralizar tabela. layout responsivo é feito também com text-align ao invés de usar position?  */
+}
+
+tr:hover{
+    background-color:cadetblue; 
+
+}
+
+article{
+    background-image:linear-gradient(to top,rgba(32,152,207,1), rgba(159, 196, 184, 1));
+    margin-bottom: 15%;
+    padding-bottom: 5%;
+}
+
+/* Inicio do FAQ */
+
+.containerfaq{
+    background-color: rgb(93, 120, 138);
+    margin: 7% 5%;
+    padding-bottom: 26%;
+    text-align: left;
+    line-height: 2.0;
+}
+
+article, ul{
+    margin-bottom: 3%;
+    background-color: rgb(187, 236, 236);
+
+}
+
+/* Inicio dos parceiros */
+
+section img{
+    width: 15%;
+    margin: 5%;
+    text-align: center;
+}
+
+section img:hover{
+    width: 20%;
+    background-color: rgb(86, 231, 183);
+    border-radius: 10%;
+}
+
+hr{
+    border: 1px solid grey;
+    margin: 0% 5%;
+}
+
+section{
+    text-align: center;
+}
+
+/* Inicio do footer */
+
+footer{
+    margin: 5% 0% 0% 0%;
+    padding: 3% 5% 1% 5%;
+    background-color: #1092cf;
+    box-shadow: 16px 28px 101px black;
+}
+
+footer h2{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+
+footer a{
+    color:black;
+    text-decoration: none;  
+    font-size: 200%;
+    text-align: left;
+    margin: 0% 7% 58% -10%;
+}
+
+.container-footer{
+    text-align: center;
+
+}
+
+form{
+    width: 25%;
+    margin-top: 3%;
+    display: inline-block;
+    background-color: #7fb6a5;
+    border-radius: 10%;
+}
+
+input, select, button{
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nossa_equipe{
+    display: flex;
+    flex-direction: row-reverse;  
+    margin: -1% 2% 0% 75%;
+    font-size: 347%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 85%;
+    background-color: #4da9a5;
+    clip-path: polygon(45% -33%, -1% 110%, 152% 108%, 90% 55%, 146% 45%, 64% -1%);
+}
+
+#nossa_história{
+    display: flex;
+    flex-direction: row;
+    margin: 2% 2% 0% 0%;
+    font-size: 347%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to top, rgba(159, 196, 184, 1), rgba(77, 168, 163, 1));
+    box-shadow: 20px -8px 38px black;
+    border-radius: 10%;
+    width: 25%;
+    position: relative;
+}
+
+#servicos{
+    text-align: center;
+    margin: 5% 2% 4% 2%;
+    font-size: 347%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 3%;
+    
+    
+}
+    
+
+
+#nossos_clientes{
+    text-decoration: double;
+    text-align: center;
+    font-size: 347%;
+    
+}
+
+#perguntas{
+    text-decoration: double;
+    font-family: cursive;
+    text-align: center;
+    font-size: 347%;
+    color: white;    
+}
+
+#contato{    
+    
+}
+
+#missao{
+    text-decoration: double;
+    ;
+}
+
+
